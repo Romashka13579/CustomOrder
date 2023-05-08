@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.order{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+}
+.order-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 2000px;
+    margin: 100px 200px;
+    background: rgb(215, 216, 223);
+}
+
+.order-item{
+    margin: 50px;
+    display: flex;
+    background: url(../img/1111.png) center/cover;
+}
