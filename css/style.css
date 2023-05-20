@@ -1,4 +1,4 @@
-/* body{
+body{
     margin: 0px;
 }
 .main{
@@ -18,66 +18,3 @@
     margin: 100px 200px;
     background: rgb(215, 216, 223);
 }
-
-.order-item{
-    margin: 50px;
-    display: flex;
-    background: url(../img/1111.png) center/cover;
-}
-
-.order-custom{
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-}
-
-.order-custom-item{
-    display: grid;
-    background: rgb(160, 160, 171);
-    border: 1.5px solid rgb(47, 47, 49);
-    width: 30px;
-    height: 30px;
-    margin: auto;
-    border-radius: 3px;
-}
-.order-custom-list-overflow{
-    margin-top: 30px;
-    position: absolute;
-    border-radius: 3px;
-    display: flex;
-    overflow: hidden;
-}
-.order-custom-list{
-    margin-top: -200%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transition: 400ms;
-}
-.order-custom-variant{
-    display: grid;
-    position: relative;
-    background: rgb(160, 160, 171);
-    border: 1.5px solid rgb(47, 47, 49);
-    width: 30px;
-    height: 30px;
-    box-sizing: border-box;
-    margin-top: -1px;
-}
-
-.order-custom-choosen{
-    margin: 3px;
-    width: auto;
-    height: auto;
-    background: url(../img/1.png) center/cover;
-}
-
-.order-custom-image-1{
-    margin: 3px;
-    background: url(../img/1.png) center/cover;
-}
-
-.order-custom-image-2{
-    margin: 3px;
-    background: url(../img/2.png) center/cover;
-} */
